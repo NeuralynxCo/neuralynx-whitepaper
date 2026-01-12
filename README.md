@@ -4,8 +4,18 @@ NEURALYNX is a research-stage Layer-1 blockchain focused on preventive security
 and long-term network stability.
 
 ## Core principle
-Artificial intelligence is used strictly as a **passive security sensor**, not as an authority.
-All consensus and state transitions remain fully deterministic and verifiable on-chain.
+
+Artificial intelligence is not used as an authority and never makes consensus or
+state transition decisions.
+
+Instead, the AI layer provides **context-dependent cryptographic entropy**
+(similar to a transponder-based challenge mechanism) that is used to harden
+transactions against replay, correlation, and coordinated attacks.
+
+The AI does **not** interpret transaction contents and does **not** have access
+to private data. Transaction confidentiality is preserved end-to-end between
+sender and receiver, while all consensus rules and state transitions remain
+fully deterministic and verifiable on-chain.
 
 ## Status
 - Technical whitepaper completed
